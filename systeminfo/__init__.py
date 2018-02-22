@@ -1,8 +1,7 @@
 import platform
 
 def platform_specs():
-    print(platform.platform())
-    return
+    return platform.platform()
 
 if __name__=="__main__":
     platform_specs()
